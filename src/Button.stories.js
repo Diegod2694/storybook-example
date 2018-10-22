@@ -2,7 +2,7 @@ import React from 'react';
 import { wInfo } from './utils'
 
 import { storiesOf } from '@storybook/react';
-import { Button } from './Button';
+import { Button } from './Button.tsx';
 import { color } from '@storybook/addon-knobs/react';
 
 storiesOf('Button', module)
