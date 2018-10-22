@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './Button.css';
 export interface Props {
-  children: React, ReactNode;
+  children: React.ReactNode;
   onClick: () => void;
   disabled?: boolean;
 }
